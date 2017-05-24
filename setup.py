@@ -36,7 +36,7 @@ And wouldn't it be nice to also offer:
 * **Largely configurable** (Through configuration settings)
 * **Fully customizable** (Through customizable functions and email templates)
 * **Well documented**
-* **Tested on Python 2.6, 2.7, 3.3 and 3.4**
+* **Tested on Python 2.6, 2.7, 3.4 and 3.6**
 
 Status
 ------
@@ -87,7 +87,7 @@ from setuptools import setup
 
 setup(
     name='Flask-User',
-    version='0.6.10',
+    version='0.6.10.1',
     url='http://github.com/lingthio/Flask-User',
     license='BSD License',
     author='Ling Thio',
@@ -122,10 +122,9 @@ setup(
         'Natural Language :: French',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
-        'Programming Language :: Python :: 2.6',
         'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3.3',
         'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3.6',
         'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
         'Topic :: Security',
         'Topic :: Software Development :: Libraries :: Python Modules',
