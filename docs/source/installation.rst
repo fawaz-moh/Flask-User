@@ -17,18 +17,18 @@ After setting up virtualenv, installation is as easy as::
 
 Requirements
 ------------
-- Python 2.6, 2.7, 3.3 or 3.4
-- Flask 0.10+
-- Flask-Login 0.2+
+- Python 2.7, 3.4 or 3.6
+- Flask 0.12+
+- Flask-Login 0.4+
 - Flask-Mail 0.9+ or Flask-Sendmail
-- Flask-WTF 0.9+
+- Flask-WTF 0.14+
 - passlib 1.6+
-- pycrypto 2.6+
-- py-bcript 0.4+        # Recommended for speed, and only if bcrypt is used to hash passwords
+- pycrypto 3.1.1+
+- pycryptodome 3.4.6+
 
 When using the included SQLAlchemyAdapter, Flask-User requires:
 
-- Flask-SQLAlchemy 1.0+ (with a driver such as MySQL-Python or PyMySQL)
+- Flask-SQLAlchemy 2.2+ (with a driver such as MySQL-Python or PyMySQL)
 
 Optional requirements for Event Notification:
 
@@ -36,7 +36,7 @@ Optional requirements for Event Notification:
 
 Optional requirements for Internationalization:
 
-- Flask-Babel 0.9+
+- Flask-Babel 0.11.2+
 - speaklater 1.3+
 
 Up Next
