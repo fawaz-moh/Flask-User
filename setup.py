@@ -87,11 +87,11 @@ from setuptools import setup
 
 setup(
     name='Flask-User',
-    version='0.6.10.1',
-    url='http://github.com/lingthio/Flask-User',
+    version='0.6.11',
+    url='http://github.com/fawaz-moh/Flask-User',
     license='BSD License',
-    author='Ling Thio',
-    author_email='ling.thio@gmail.com',
+    author='Fawaz Mohammed',
+    author_email='fawaz.moh.ibraheem@gmail.com',
     description='Customizable User Account Management for Flask: Register, Confirm email, Login, Change username, Change password, Forgot password and more.',
     long_description=__doc__,
     keywords='Flask User Registration Email Username Confirmation Password Reset',
